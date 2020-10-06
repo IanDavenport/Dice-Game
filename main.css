@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    background-color: darkgreen;
+}
+
+h1 {  
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-style: bold;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-style: normal;
+}
+
+h2 {
+    color: coral;
+    text-align: center;
+}
+
+.diceImage {
+    display: flex;        
+    flex-flow: row wrap;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#rollButton {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black; 
+    background-color: blueviolet;
+    height: 50px;
+    width: 70px;  
+    font-size: 30px;
+}
+
+#rollLabel {
+    padding-bottom: 10px;
+}
+
+#playerScore {
+    color: black;
+    font-size: 40px;
+}
+
+/* #userScore {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} */
+
+
+
